@@ -34,7 +34,7 @@
              String pass=request.getParameter("cpass");
 			 String sku=request.getParameter("csku");
 
-             Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:orcl","c##newdb","orcl");
+             Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:orcl","c##newdb","orcl123");
              PreparedStatement ps;
              ps=conn.prepareStatement("Select name,email,contact,address,state,city,pin from user1 where email=? AND pass=?");
            

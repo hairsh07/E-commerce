@@ -1,0 +1,28 @@
+[0904/044923.556:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/045000.232:WARNING:process_subrange_reader.cc(81)] attempt to read outside of C:\Windows\system32\d2d1.dll range 0x0 + 0x0 (64) at range 0x0 + 0x40 (64)
+[0904/045000.233:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\system32\d2d1.dll
+[0904/045000.233:WARNING:process_subrange_reader.cc(81)] attempt to read outside of C:\Windows\system32\d2d1.dll range 0x0 + 0x0 (64) at range 0x0 + 0x40 (64)
+[0904/045000.233:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\system32\d2d1.dll
+[0904/045000.384:WARNING:process_subrange_reader.cc(81)] attempt to read outside of C:\Windows\system32\d2d1.dll range 0x0 + 0x0 (64) at range 0x0 + 0x40 (64)
+[0904/045000.384:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\system32\d2d1.dll
+[0904/045000.404:WARNING:process_subrange_reader.cc(81)] attempt to read outside of C:\Windows\system32\d2d1.dll range 0x0 + 0x0 (64) at range 0x0 + 0x40 (64)
+[0904/045000.404:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\system32\d2d1.dll
+[0904/045000.404:WARNING:process_subrange_reader.cc(81)] attempt to read outside of C:\Windows\system32\d2d1.dll range 0x0 + 0x0 (64) at range 0x0 + 0x40 (64)
+[0904/045000.404:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\system32\d2d1.dll
+[0904/045000.404:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/045000.451:WARNING:process_subrange_reader.cc(81)] attempt to read outside of C:\Windows\system32\d2d1.dll range 0x0 + 0x0 (64) at range 0x0 + 0x40 (64)
+[0904/045000.451:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\system32\d2d1.dll
+[0904/045000.466:WARNING:process_subrange_reader.cc(81)] attempt to read outside of C:\Windows\system32\d2d1.dll range 0x0 + 0x0 (64) at range 0x0 + 0x40 (64)
+[0904/045000.466:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Windows\system32\d2d1.dll
+[0904/062801.600:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/062811.245:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/062955.819:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/062957.541:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/063011.904:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/063024.893:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/063027.874:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/063027.895:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/063038.803:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/063045.524:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/063244.782:ERROR:process_info.cc(359)] UncheckedAllocate
+[0904/063254.456:ERROR:process_info.cc(359)] UncheckedAllocate

@@ -96,13 +96,12 @@
     <table id="tb1-order" class="table table-responsive table-bordered" cellpadding ="0" width="100%">
 		<thead>
 		<tr color: black;>
-			<th color: black;>Name</th>
-			<th color: black;>Email</th>
-			<th color: black;>Contact</th>
-			<th color: black;>Address</th>
-			<th color: black;>State</th>
-			<th color: black;>City</th>
-			<th color: black;>Pin</th>
+			<th color: black;>Order ID</th>
+			<th color: black;>Email ID</th>
+			<th color: black;>SKU</th>
+			<th color: black;>Quantity</th>
+			<th color: black;>Size</th>
+			<th color: black;>Delete</th>
 			
 		</tr>
 		<%
@@ -111,21 +110,20 @@
          {
              Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:orcl","c##newdb","orcl123");
              PreparedStatement ps;
-             ps=conn.prepareStatement("Select name,email,contact,address,state,city,pin from user1");
+             ps=conn.prepareStatement("Select orderid,email,sku,qty,psize from order10");
              ResultSet rs=ps.executeQuery();
 
              while(rs.next())
-              {
-              
+              { 
         %>
 		<tr  color: black;>
-			<td color: black;><%=rs.getString("name") %></td>
+			<td color: black;><%=rs.getString("orderid") %></td>
 			<td color: black;><%=rs.getString("email") %></td>
-			<td color: black;><%=rs.getString("contact") %></td>
-			<td color: black;><%=rs.getString("address") %></td>
-			<td color: black;><%=rs.getString("state") %></td>
-			<td color: black;><%=rs.getString("city") %></td>
-			<td color: black;><%=rs.getString("pin") %></td>
+			<td color: black;><%=rs.getString("sku") %></td>
+			<td color: black;><%=rs.getString("qty") %></td>
+			<td color: black;><%=rs.getString("psize") %></td>
+			<td color: black;><a href="delete.jsp">Delete</a></td>
+			
 			
 		</tr>
                 

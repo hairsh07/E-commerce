@@ -36,7 +36,7 @@ String qty=request.getParameter("qty");
 String size=request.getParameter("csize");
 
 try{
-	Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:orcl","c##shop","orcl");
+	Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:orcl","c##shop","orcl123");
 	PreparedStatement ps = conn.prepareStatement("insert into order1 values(?,?,?,?,?,?,?,?,?,?)");
 	ps.setString(1,name);
 	ps.setString(2,num);

@@ -35,7 +35,7 @@ String orderid=request.getParameter("orderid");
 
 
 try{
-	Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:orcl","c##newdb","orcl");
+	Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:orcl","c##newdb","orcl123");
 	PreparedStatement ps = conn.prepareStatement("insert into order10 values(orderid.nextval,?,?,?,?)");
 	ps.setString(1,bemail);
 	ps.setString(2,bsku);
