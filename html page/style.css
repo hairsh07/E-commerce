@@ -1,0 +1,254 @@
+body{
+	/*background-image: url(1.jpeg);*/
+	background-size: cover;
+	color: white;
+	background: rgba(255,69,0,0.4);
+}	
+ul {
+	margin: 0px ;
+	padding:0px;
+	list-style: none;
+}
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: rgba(0,0,0,.5);
+	line-height: 40px;
+	text-align: center;
+	
+}
+
+
+
+
+ul li a {
+text-decoration: none;
+color: white;
+display: block;
+
+}
+ul li a:hover {
+background-color: green;
+
+
+}
+
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+	position: relative;
+
+	
+}
+ul li ul li ul  {
+	display: none;
+	
+}
+ul li ul li:hover ul{
+	display:block;
+	opacity:.9;
+	position: absolute;
+	top: 0;
+	left: 100%;
+}
+
+/*class selection*/
+.hero{
+	width:100%;
+	display:flex;
+	margin-top: 20px;
+	justify-content:center;
+}
+
+.main-image{
+	
+width:50%;}
+
+.main-image > img{
+	width:600px;
+	height:auto;
+	
+	
+}
+.sec-image{
+	width:30%;
+}
+.sec-image > img{
+	width:300px;
+	height:auto;
+	margin:20px;
+
+}
+.head {
+	max-width: 100%;
+	display: flex;
+	justify-content:center;
+	
+}
+
+.logo{
+	max-width:15%;
+	margin-right: 10px;
+}
+
+.option{
+	max-width:80%;
+	
+}
+
+/*Men Top wear Tees*/
+
+.catalogue{
+	width: 90%; 
+	margin-top: 50px;
+	margin-left:100px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.item{
+	width: 20%;
+	height: 450px;
+	color: #575757;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background: rgba(255, 255, 255,0.6);
+	
+}
+
+.item-image-container{
+	width: 100%;
+	height:auto;
+
+}
+
+.item-image{
+	width:100%;
+	height: auto;
+}
+
+/*Product page*/
+
+
+/*copied*/
+
+
+.slidershow{
+  width: 30%;
+  height: 400px;
+  overflow: hidden;
+  margin:20px;
+}
+
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  left:14%
+}
+.bar{
+  width: 15px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  background-color: rgba(0,0,0,.5);
+  transition: 0.4s;
+  
+}
+.bar:hover{
+  background: #fff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 300px;
+  height: auto;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+#r5:checked ~ .s1{
+  margin-left: -80%;
+}
+
+/*copied finish*/
+
+
+.interface{
+	width:100%;
+	display:flex;
+	margin-top: 60px;
+	justify-content:center;
+}
+
+.feature{
+	width:50%;
+	margin:20px;
+	height: 400px;
+	justify-content:center;	
+	flex-direction: column;
+	flex-wrap: wrap;
+	background: rgba(255, 255, 255,0.6);
+}
+
+.info{
+	width:100%;
+	justify-content:left;
+	margin:15px;
+	height:300px;
+	
+}
+.buy{
+	width: 50%;
+	margin:15px;
+	
+}
+
+.title{
+margin-bottom:10px;
+}
+.disc{
+	margin-top:20px;
+}
+
+.btn{
+	width:100px;
+	height:30px;
+	background:none;
+	border: 3px solid #4caf50;
+	font-style: oblique;
+	font-size: 15px;
+	
+}
